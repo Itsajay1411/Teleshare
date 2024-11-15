@@ -20,7 +20,7 @@ class SettingsModel(BaseModel):
     FORCE_SUB_MESSAGE: str | int = "Please join the channel(s) first."
     START_MESSAGE: str | int = "I am a file-sharing bot."
     USER_REPLY_TEXT: str | int = "idk"
-    AUTO_DELETE_MESSAGE: str | int = "This file(s) will be deleted within {} minutes"
+    AUTO_DELETE_MESSAGE: str | int = "❗ Files will be Deleted within 5 Min to avoid Copyright ©️, Forward the File to your " Saved Message"!"
     AUTO_DELETE_SECONDS: int = 300
     GLOBAL_MODE: bool = False
     BACKUP_FILES: bool = True
